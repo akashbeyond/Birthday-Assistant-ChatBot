@@ -1,0 +1,1932 @@
+{
+ "V1": {
+  "summary": {
+   "cats": {
+    "Direct": [
+     10,
+     10
+    ],
+    "Paraphrase": [
+     7,
+     10
+    ],
+    "Context": [
+     7,
+     10
+    ],
+    "Ambiguous/Unsupported": [
+     1,
+     10
+    ]
+   },
+   "total": [
+    25,
+    40
+   ],
+   "intent": null,
+   "entity": null,
+   "clar": [
+    0,
+    2
+   ],
+   "facts": [
+    137,
+    137
+   ],
+   "ms": 4.453943004166394
+  },
+  "results": [
+   {
+    "id": "D01",
+    "passed": true,
+    "answer": "Birthdays in the next 30 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)\n\u2022 Lakshmi Kumar \u2014 23 September (Colleague; in 12 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Sanjay Naik \u2014 25 September (Brother; in 14 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)",
+    "ms": 19.909039999998157,
+    "facts": [
+     16,
+     16
+    ]
+   },
+   {
+    "id": "D02",
+    "passed": true,
+    "answer": "There are 12 birthdays in October.",
+    "ms": 5.583843000000144,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D03",
+    "passed": true,
+    "answer": "No matching birthdays were found in tomorrow.",
+    "ms": 6.225543999999417,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D04",
+    "passed": true,
+    "answer": "Lakshmi Rao's birthday is 14 December 1982 (Wife).",
+    "ms": 4.503934000002374,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D05",
+    "passed": true,
+    "answer": "Birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 6.131089000000145,
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "D06",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 0.5396050000001651,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D07",
+    "passed": true,
+    "answer": "Rahul Patil stays in Bengaluru.",
+    "ms": 0.4240619999968942,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D08",
+    "passed": true,
+    "answer": "Birthdays in next week:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 8.51551499999914,
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "D09",
+    "passed": true,
+    "answer": "Rahul Patil is 21 years old as of 11 September 2026.",
+    "ms": 0.5514509999997586,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D10",
+    "passed": true,
+    "answer": "People staying in Bengaluru:\n\u2022 Rahul Patil\n\u2022 Sanjay Rao\n\u2022 Rashmi Sharma\n\u2022 Shilpa R\n\u2022 Pooja Patil\n\u2022 Harini Bhat\n\u2022 Pooja Joshi",
+    "ms": 4.193558000000763,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P01",
+    "passed": true,
+    "answer": "Birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 6.2987650000003725,
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "P02",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)",
+    "ms": 5.913854999999302,
+    "facts": [
+     2,
+     2
+    ]
+   },
+   {
+    "id": "P03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.2930840000027217,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P04",
+    "passed": true,
+    "answer": "Ananya Patil's birthday is 27 September 2008.",
+    "ms": 0.47233200000107445,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P05",
+    "passed": true,
+    "answer": "Birthdays in September:\n\u2022 Chaitra Rao \u2014 01 September (Aunt; in 355 days)\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Pooja Joshi \u2014 04 September (Student; in 358 days)\n\u2022 Aditya Joshi \u2014 05 September (Friend; in 359 days)\n\u2022 Nayana Joshi \u2014 06 September (Niece; in 360 days)\n\u2022 Soumya Reddy \u2014 08 September (Sister; in 362 days)\n\u2022 Pallavi Kulkarni \u2014 09 September (Wife; in 363 days)\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)\n\u2022 Lakshmi Kumar \u2014 23 September (Colleague; in 12 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Sanjay Naik \u2014 25 September (Brother; in 14 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)",
+    "ms": 5.842778999998188,
+    "facts": [
+     16,
+     16
+    ]
+   },
+   {
+    "id": "P06",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 3.2527989999984186,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P07",
+    "passed": true,
+    "answer": "There are 1 nephew birthdays in October.",
+    "ms": 5.226117999999502,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P08",
+    "passed": true,
+    "answer": "Ananya Patil stays in Mysuru.",
+    "ms": 0.5894710000013959,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P09",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 3.1202239999998937,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P10",
+    "passed": false,
+    "answer": "I found 12 people recorded as Nephew:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Ganesh Prasad \u2014 01 November (Nephew; in 51 days)\n\u2022 Rohan Hegde \u2014 03 November (Nephew; in 53 days)\n\u2022 Vijay Shetty \u2014 28 November (Nephew; in 78 days)\n\u2022 Varun Kumar \u2014 17 December (Nephew; in 97 days)\n\u2022 Kiran R \u2014 13 April (Nephew; in 214 days)\n\u2022 Vinay Desai \u2014 28 July (Nephew; in 320 days)\n\u2022 Karthik Hegde \u2014 01 August (Nephew; in 324 days)\n\u2022 Darshan M \u2014 11 August (Nephew; in 334 days)\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)",
+    "ms": 5.773822999998401,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C01",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 5.849204499998706,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C02",
+    "passed": true,
+    "answer": "I found 17 people recorded as Niece:\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Varsha Hegde \u2014 12 January (Niece; in 123 days)\n\u2022 Chaitra Joshi \u2014 14 March (Niece; in 184 days)\n\u2022 Rashmi Kulkarni \u2014 23 March (Niece; in 193 days)\n\u2022 Usha Kulkarni \u2014 03 April (Niece; in 204 days)\n\u2022 Lakshmi Sharma \u2014 20 April (Niece; in 221 days)\n\u2022 Ananya S \u2014 01 May (Niece; in 232 days)\n\u2022 Yashaswini K \u2014 01 June (Niece; in 263 days)\n\u2022 Priya Patil \u2014 05 June (Niece; in 267 days)\n\u2022 Deepa Sharma \u2014 19 June (Niece; in 281 days)\n\u2022 Bhavana Kulkarni6 \u2014 22 June (Niece; in 284 days)\n\u2022 Shilpa R \u2014 10 July (Niece; in 302 days)\n\u2022 Lakshmi Reddy \u2014 27 July (Niece; in 319 days)\n\u2022 Nayana Joshi \u2014 06 September (Niece; in 360 days)",
+    "ms": 5.8292524999981055,
+    "facts": [
+     17,
+     17
+    ]
+   },
+   {
+    "id": "C03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 4.367242999999021,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C04",
+    "passed": true,
+    "answer": "Nikhil Hegde's birthday is 03 October 2001.",
+    "ms": 3.0594316666672228,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C05",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 4.372130000000141,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C06",
+    "passed": true,
+    "answer": "No matching birthdays were found in tomorrow.",
+    "ms": 5.865209000001315,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C07",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 1.7486494999996438,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C08",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 5.6702314999999,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C09",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 3.601788499999259,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C10",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 5.469875000001068,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "A01",
+    "passed": false,
+    "answer": "I found 12 people recorded as Nephew:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Ganesh Prasad \u2014 01 November (Nephew; in 51 days)\n\u2022 Rohan Hegde \u2014 03 November (Nephew; in 53 days)\n\u2022 Vijay Shetty \u2014 28 November (Nephew; in 78 days)\n\u2022 Varun Kumar \u2014 17 December (Nephew; in 97 days)\n\u2022 Kiran R \u2014 13 April (Nephew; in 214 days)\n\u2022 Vinay Desai \u2014 28 July (Nephew; in 320 days)\n\u2022 Karthik Hegde \u2014 01 August (Nephew; in 324 days)\n\u2022 Darshan M \u2014 11 August (Nephew; in 334 days)\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)",
+    "ms": 5.755946000000733,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "A02",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 3.0714959999968983,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A03",
+    "passed": true,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 3.0386540000009177,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A04",
+    "passed": false,
+    "answer": "Birthdays in February:\n\u2022 Harish K \u2014 04 February (Brother; in 146 days)\n\u2022 Aarav Gowda \u2014 08 February (Colleague; in 150 days)\n\u2022 Aditya Patil \u2014 11 February (Brother; in 153 days)\n\u2022 Deepa R \u2014 18 February (Sister-in-law; in 160 days)\n\u2022 Yashaswini Reddy \u2014 20 February (Student; in 162 days)",
+    "ms": 5.308348999999879,
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "A05",
+    "passed": false,
+    "answer": "No matching birthdays were found in today.",
+    "ms": 6.0276520000002165,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A06",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.200259999999844,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "A07",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 2.928015999998479,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A08",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 2.9993610000005333,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A09",
+    "passed": false,
+    "answer": "I could not match that question to a V1 rule. Type 'examples' to see the patterns this deterministic version understands.",
+    "ms": 3.1476519999991126,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A10",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 0.4864279999985399,
+    "facts": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "V2": {
+  "summary": {
+   "cats": {
+    "Direct": [
+     10,
+     10
+    ],
+    "Paraphrase": [
+     9,
+     10
+    ],
+    "Context": [
+     8,
+     10
+    ],
+    "Ambiguous/Unsupported": [
+     4,
+     10
+    ]
+   },
+   "total": [
+    31,
+    40
+   ],
+   "intent": [
+    9,
+    9
+   ],
+   "entity": [
+    17,
+    17
+   ],
+   "clar": [
+    0,
+    2
+   ],
+   "facts": [
+    129,
+    129
+   ],
+   "ms": 7.226232458333248
+  },
+  "results": [
+   {
+    "id": "D01",
+    "passed": true,
+    "answer": "Birthdays in the next 30 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)\n\u2022 Lakshmi Kumar \u2014 23 September (Colleague; in 12 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Sanjay Naik \u2014 25 September (Brother; in 14 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)",
+    "ms": 24.220887999998553,
+    "intent_ok": true,
+    "facts": [
+     16,
+     16
+    ]
+   },
+   {
+    "id": "D02",
+    "passed": true,
+    "answer": "There are 12 birthdays in October.",
+    "ms": 6.8436289999986855,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D03",
+    "passed": true,
+    "answer": "No birthdays found tomorrow.",
+    "ms": 7.0148640000020634,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D04",
+    "passed": true,
+    "answer": "Lakshmi Rao's birthday is 14 December 1982 (Wife).",
+    "ms": 9.117333999999033,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D05",
+    "passed": true,
+    "answer": "Nephew birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 9.123841000000965,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "D06",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.6730690000013055,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D07",
+    "passed": true,
+    "answer": "Rahul Patil stays in Bengaluru.",
+    "ms": 3.736967999998342,
+    "intent_ok": true,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D08",
+    "passed": true,
+    "answer": "Birthdays next week:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 9.040692999999322,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "D09",
+    "passed": true,
+    "answer": "Rahul Patil is 21 years old as of 11 September 2026.",
+    "ms": 3.632836999997835,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D10",
+    "passed": true,
+    "answer": "People staying in Bengaluru:\n\u2022 Rahul Patil (Nephew)\n\u2022 Sanjay Rao (Brother)\n\u2022 Rashmi Sharma (Colleague)\n\u2022 Shilpa R (Niece)\n\u2022 Pooja Patil (Aunt)\n\u2022 Harini Bhat (Aunt)\n\u2022 Pooja Joshi (Student)",
+    "ms": 6.978991000000434,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P01",
+    "passed": true,
+    "answer": "Nephew birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 9.035326999999427,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "P02",
+    "passed": true,
+    "answer": "Niece birthdays in October:\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)",
+    "ms": 8.59145699999786,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     2,
+     2
+    ]
+   },
+   {
+    "id": "P03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.688067999998992,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P04",
+    "passed": true,
+    "answer": "Ananya Patil's birthday is 27 September 2008.",
+    "ms": 3.5360450000005983,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P05",
+    "passed": true,
+    "answer": "Birthdays on 18 September:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)",
+    "ms": 8.25960299999906,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P06",
+    "passed": true,
+    "answer": "Birthdays in the next 10 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 8.458275000002402,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "P07",
+    "passed": true,
+    "answer": "There is 1 nephew birthday in October.",
+    "ms": 6.816475000000821,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P08",
+    "passed": true,
+    "answer": "Ananya Patil stays in Mysuru.",
+    "ms": 3.556641999999499,
+    "intent_ok": true,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P09",
+    "passed": true,
+    "answer": "People staying in Hassan:\n\u2022 Yashaswini Rao (Sister)\n\u2022 Nikhil Bhat (Nephew)\n\u2022 Kiran Hegde (Student)\n\u2022 Bhavana Reddy (Colleague)\n\u2022 Aarav Shetty (Student)\n\u2022 Vidya Gowda (Aunt)\n\u2022 Nikhil S (Uncle)",
+    "ms": 6.833649999997249,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P10",
+    "passed": false,
+    "answer": "Nephew birthdays:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Ganesh Prasad \u2014 01 November (Nephew; in 51 days)\n\u2022 Rohan Hegde \u2014 03 November (Nephew; in 53 days)\n\u2022 Vijay Shetty \u2014 28 November (Nephew; in 78 days)\n\u2022 Varun Kumar \u2014 17 December (Nephew; in 97 days)\n\u2022 Kiran R \u2014 13 April (Nephew; in 214 days)\n\u2022 Vinay Desai \u2014 28 July (Nephew; in 320 days)\n\u2022 Karthik Hegde \u2014 01 August (Nephew; in 324 days)\n\u2022 Darshan M \u2014 11 August (Nephew; in 334 days)\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)",
+    "ms": 8.652652000002092,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C01",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 8.488759000000456,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C02",
+    "passed": true,
+    "answer": "Niece birthdays:\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Varsha Hegde \u2014 12 January (Niece; in 123 days)\n\u2022 Chaitra Joshi \u2014 14 March (Niece; in 184 days)\n\u2022 Rashmi Kulkarni \u2014 23 March (Niece; in 193 days)\n\u2022 Usha Kulkarni \u2014 03 April (Niece; in 204 days)\n\u2022 Lakshmi Sharma \u2014 20 April (Niece; in 221 days)\n\u2022 Ananya S \u2014 01 May (Niece; in 232 days)\n\u2022 Yashaswini K \u2014 01 June (Niece; in 263 days)\n\u2022 Priya Patil \u2014 05 June (Niece; in 267 days)\n\u2022 Deepa Sharma \u2014 19 June (Niece; in 281 days)\n\u2022 Bhavana Kulkarni \u2014 22 June (Niece; in 284 days)\n\u2022 Shilpa R \u2014 10 July (Niece; in 302 days)\n\u2022 Lakshmi Reddy \u2014 27 July (Niece; in 319 days)\n\u2022 Nayana Joshi \u2014 06 September (Niece; in 360 days)",
+    "ms": 8.488311499998957,
+    "facts": [
+     17,
+     17
+    ]
+   },
+   {
+    "id": "C03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 7.385766500000557,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C04",
+    "passed": true,
+    "answer": "Nikhil Hegde's birthday is 03 October 2001.",
+    "ms": 6.162500333331877,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C05",
+    "passed": false,
+    "answer": "There are 100 birthdays.",
+    "ms": 7.262368499999283,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C06",
+    "passed": true,
+    "answer": "No birthdays found tomorrow.",
+    "ms": 7.632212000000749,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C07",
+    "passed": false,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 4.744999999998001,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C08",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 8.579888999999952,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C09",
+    "passed": true,
+    "answer": "Birthdays staying in Mysuru:\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Rashmi Shetty \u2014 24 March (Cousin; in 194 days)\n\u2022 Usha Kulkarni \u2014 03 April (Niece; in 204 days)\n\u2022 Yashaswini K \u2014 01 June (Niece; in 263 days)\n\u2022 Priya Hegde \u2014 19 June (Student; in 281 days)\n\u2022 Vaishnavi Murthy \u2014 12 July (Sister-in-law; in 304 days)\n\u2022 Nikhil Reddy \u2014 14 August (Friend; in 337 days)",
+    "ms": 7.504267499999884,
+    "facts": [
+     7,
+     7
+    ]
+   },
+   {
+    "id": "C10",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 7.684843999999913,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "A01",
+    "passed": false,
+    "answer": "Nephew birthdays:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Ganesh Prasad \u2014 01 November (Nephew; in 51 days)\n\u2022 Rohan Hegde \u2014 03 November (Nephew; in 53 days)\n\u2022 Vijay Shetty \u2014 28 November (Nephew; in 78 days)\n\u2022 Varun Kumar \u2014 17 December (Nephew; in 97 days)\n\u2022 Kiran R \u2014 13 April (Nephew; in 214 days)\n\u2022 Vinay Desai \u2014 28 July (Nephew; in 320 days)\n\u2022 Karthik Hegde \u2014 01 August (Nephew; in 324 days)\n\u2022 Darshan M \u2014 11 August (Nephew; in 334 days)\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)",
+    "ms": 8.505801000001867,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "A02",
+    "passed": false,
+    "answer": "I found 5 matching people:\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Nikhil Reddy (Friend, Mysuru)\n\u2022 Nikhil Rao (Uncle, Chitradurga)\n\u2022 Nikhil S (Uncle, Hassan)\nPlease use a full name.",
+    "ms": 6.702526999998071,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A03",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 5.914735000001059,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A04",
+    "passed": true,
+    "answer": "February does not have a day 31.",
+    "ms": 5.9406700000010915,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A05",
+    "passed": false,
+    "answer": "No birthdays found today.",
+    "ms": 6.544201000000527,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A06",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.399696999999094,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "A07",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 5.867592000001309,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A08",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 5.938372999999331,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A09",
+    "passed": false,
+    "answer": "There are 100 birthdays.",
+    "ms": 5.887428000001194,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A10",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.603048000002218,
+    "facts": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "V3": {
+  "summary": {
+   "cats": {
+    "Direct": [
+     10,
+     10
+    ],
+    "Paraphrase": [
+     9,
+     10
+    ],
+    "Context": [
+     10,
+     10
+    ],
+    "Ambiguous/Unsupported": [
+     6,
+     10
+    ]
+   },
+   "total": [
+    35,
+    40
+   ],
+   "intent": [
+    9,
+    9
+   ],
+   "entity": [
+    17,
+    17
+   ],
+   "clar": [
+    2,
+    2
+   ],
+   "facts": [
+    70,
+    70
+   ],
+   "ms": 7.242338945833607
+  },
+  "results": [
+   {
+    "id": "D01",
+    "passed": true,
+    "answer": "Birthdays in the next 30 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)\n\u2022 Lakshmi Kumar \u2014 23 September (Colleague; in 12 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Sanjay Naik \u2014 25 September (Brother; in 14 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)",
+    "ms": 25.43274099999948,
+    "intent_ok": true,
+    "facts": [
+     16,
+     16
+    ]
+   },
+   {
+    "id": "D02",
+    "passed": true,
+    "answer": "There are 12 birthdays in October.",
+    "ms": 7.082630000002865,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D03",
+    "passed": true,
+    "answer": "No birthdays found tomorrow.",
+    "ms": 6.723774999997545,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D04",
+    "passed": true,
+    "answer": "Lakshmi Rao's birthday is 14 December 1982 (Wife).",
+    "ms": 8.81777700000086,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D05",
+    "passed": true,
+    "answer": "Nephew birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 8.978431000002729,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "D06",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.7269749999992996,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D07",
+    "passed": true,
+    "answer": "Rahul Patil stays in Bengaluru.",
+    "ms": 3.5560649999979432,
+    "intent_ok": true,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D08",
+    "passed": true,
+    "answer": "Birthdays next week:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 8.890572999998625,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "D09",
+    "passed": true,
+    "answer": "Rahul Patil is 21 years old as of 11 September 2026.",
+    "ms": 3.6354600000017,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D10",
+    "passed": true,
+    "answer": "People staying in Bengaluru:\n\u2022 Rahul Patil (Nephew)\n\u2022 Sanjay Rao (Brother)\n\u2022 Rashmi Sharma (Colleague)\n\u2022 Shilpa R (Niece)\n\u2022 Pooja Patil (Aunt)\n\u2022 Harini Bhat (Aunt)\n\u2022 Pooja Joshi (Student)",
+    "ms": 7.451457000001938,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P01",
+    "passed": true,
+    "answer": "Nephew birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 9.344297999998474,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "P02",
+    "passed": true,
+    "answer": "Niece birthdays in October:\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)",
+    "ms": 8.69170800000063,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     2,
+     2
+    ]
+   },
+   {
+    "id": "P03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.8316420000016365,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P04",
+    "passed": true,
+    "answer": "Ananya Patil's birthday is 27 September 2008.",
+    "ms": 3.6164919999990275,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P05",
+    "passed": true,
+    "answer": "Birthdays on 18 September:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)",
+    "ms": 8.325419000001943,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P06",
+    "passed": true,
+    "answer": "Birthdays in the next 10 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 8.52651499999979,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "P07",
+    "passed": true,
+    "answer": "There is 1 nephew birthday in October.",
+    "ms": 7.138957000002222,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P08",
+    "passed": true,
+    "answer": "Ananya Patil stays in Mysuru.",
+    "ms": 3.5907129999976917,
+    "intent_ok": true,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P09",
+    "passed": true,
+    "answer": "People staying in Hassan:\n\u2022 Yashaswini Rao (Sister)\n\u2022 Nikhil Bhat (Nephew)\n\u2022 Kiran Hegde (Student)\n\u2022 Bhavana Reddy (Colleague)\n\u2022 Aarav Shetty (Student)\n\u2022 Vidya Gowda (Aunt)\n\u2022 Nikhil S (Uncle)",
+    "ms": 6.83891299999928,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P10",
+    "passed": false,
+    "answer": "I found 12 nephews. Which one do you mean?\n\u2022 Rahul Patil (Nephew, Bengaluru)\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Varun Kumar (Nephew, Mangaluru)\n\u2022 Rohan Hegde (Nephew, Shivamogga)\n\u2022 Vijay Shetty (Nephew, Tumakuru)\n\u2022 Karthik Hegde (Nephew, Belagavi)\n\u2022 Darshan M (Nephew, Harihar)\n\u2022 Kiran R (Nephew, Belagavi)\n\u2022 Ganesh Prasad (Nephew, Haveri)\n\u2022 Bharath Rao (Nephew, Davanagere)\n\u2022 Vinay Desai (Nephew, Davanagere)",
+    "ms": 7.151724999999942,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C01",
+    "passed": true,
+    "answer": "Nephew birthdays in October:\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)",
+    "ms": 8.86289600000012,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C02",
+    "passed": true,
+    "answer": "Niece birthdays in September:\n\u2022 Nayana Joshi \u2014 06 September (Niece; in 360 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)",
+    "ms": 8.96059799999982,
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "C03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.7717610000013195,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C04",
+    "passed": true,
+    "answer": "Nikhil Hegde's birthday is 03 October 2001.",
+    "ms": 5.816954333332329,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C05",
+    "passed": true,
+    "answer": "There are 2 niece birthdays in October.",
+    "ms": 7.80736950000005,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C06",
+    "passed": true,
+    "answer": "No birthdays found tomorrow.",
+    "ms": 7.5759175000005285,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C07",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 5.02938700000044,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C08",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 8.92237499999915,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C09",
+    "passed": true,
+    "answer": "Birthdays staying in Mysuru:\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Rashmi Shetty \u2014 24 March (Cousin; in 194 days)\n\u2022 Usha Kulkarni \u2014 03 April (Niece; in 204 days)\n\u2022 Yashaswini K \u2014 01 June (Niece; in 263 days)\n\u2022 Priya Hegde \u2014 19 June (Student; in 281 days)\n\u2022 Vaishnavi Murthy \u2014 12 July (Sister-in-law; in 304 days)\n\u2022 Nikhil Reddy \u2014 14 August (Friend; in 337 days)",
+    "ms": 7.611731000000788,
+    "facts": [
+     7,
+     7
+    ]
+   },
+   {
+    "id": "C10",
+    "passed": true,
+    "answer": "Nephew birthdays in October:\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)",
+    "ms": 7.473246500001807,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "A01",
+    "passed": true,
+    "answer": "I found 12 nephews. Which one do you mean?\n\u2022 Rahul Patil (Nephew, Bengaluru)\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Varun Kumar (Nephew, Mangaluru)\n\u2022 Rohan Hegde (Nephew, Shivamogga)\n\u2022 Vijay Shetty (Nephew, Tumakuru)\n\u2022 Karthik Hegde (Nephew, Belagavi)\n\u2022 Darshan M (Nephew, Harihar)\n\u2022 Kiran R (Nephew, Belagavi)\n\u2022 Ganesh Prasad (Nephew, Haveri)\n\u2022 Bharath Rao (Nephew, Davanagere)\n\u2022 Vinay Desai (Nephew, Davanagere)",
+    "ms": 7.047929999998814,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A02",
+    "passed": true,
+    "answer": "I found 5 people. Which one do you mean?\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Nikhil Reddy (Friend, Mysuru)\n\u2022 Nikhil Rao (Uncle, Chitradurga)\n\u2022 Nikhil S (Uncle, Hassan)",
+    "ms": 6.797006999999411,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A03",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 6.0069610000006435,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A04",
+    "passed": true,
+    "answer": "February does not have a day 31.",
+    "ms": 5.9850640000007616,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A05",
+    "passed": false,
+    "answer": "No birthdays found today.",
+    "ms": 6.546129000000178,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A06",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.465232000000043,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "A07",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 6.102263999999025,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A08",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 6.080140000001677,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A09",
+    "passed": false,
+    "answer": "There are 100 birthdays.",
+    "ms": 5.916823000003291,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A10",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.5615060000004917,
+    "facts": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "V4 (rules)": {
+  "summary": {
+   "cats": {
+    "Direct": [
+     10,
+     10
+    ],
+    "Paraphrase": [
+     9,
+     10
+    ],
+    "Context": [
+     10,
+     10
+    ],
+    "Ambiguous/Unsupported": [
+     6,
+     10
+    ]
+   },
+   "total": [
+    35,
+    40
+   ],
+   "intent": [
+    9,
+    9
+   ],
+   "entity": [
+    17,
+    17
+   ],
+   "clar": [
+    2,
+    2
+   ],
+   "facts": [
+    70,
+    70
+   ],
+   "ms": 7.467846579166851
+  },
+  "results": [
+   {
+    "id": "D01",
+    "passed": true,
+    "answer": "Birthdays in the next 30 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)\n\u2022 Lakshmi Kumar \u2014 23 September (Colleague; in 12 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)\n\u2022 Sanjay Naik \u2014 25 September (Brother; in 14 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)",
+    "ms": 25.64998400000107,
+    "intent_ok": true,
+    "facts": [
+     16,
+     16
+    ]
+   },
+   {
+    "id": "D02",
+    "passed": true,
+    "answer": "There are 12 birthdays in October.",
+    "ms": 7.2150339999979,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D03",
+    "passed": true,
+    "answer": "No birthdays found tomorrow.",
+    "ms": 6.891542999998279,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D04",
+    "passed": true,
+    "answer": "Lakshmi Rao's birthday is 14 December 1982 (Wife).",
+    "ms": 9.263283000002787,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D05",
+    "passed": true,
+    "answer": "Nephew birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 9.180744999998325,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "D06",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.8739949999992973,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D07",
+    "passed": true,
+    "answer": "Rahul Patil stays in Bengaluru.",
+    "ms": 3.7251160000018047,
+    "intent_ok": true,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "D08",
+    "passed": true,
+    "answer": "Birthdays next week:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 8.812986000002354,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "D09",
+    "passed": true,
+    "answer": "Rahul Patil is 21 years old as of 11 September 2026.",
+    "ms": 3.6522999999988315,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "D10",
+    "passed": true,
+    "answer": "People staying in Bengaluru:\n\u2022 Rahul Patil (Nephew)\n\u2022 Sanjay Rao (Brother)\n\u2022 Rashmi Sharma (Colleague)\n\u2022 Shilpa R (Niece)\n\u2022 Pooja Patil (Aunt)\n\u2022 Harini Bhat (Aunt)\n\u2022 Pooja Joshi (Student)",
+    "ms": 7.030861000000499,
+    "intent_ok": true,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P01",
+    "passed": true,
+    "answer": "Nephew birthdays in September:\n\u2022 Bharath Rao \u2014 02 September (Nephew; in 356 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Nikhil Bhat \u2014 25 September (Nephew; in 14 days)",
+    "ms": 8.957207999998218,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "P02",
+    "passed": true,
+    "answer": "Niece birthdays in October:\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)",
+    "ms": 9.00442600000062,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     2,
+     2
+    ]
+   },
+   {
+    "id": "P03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.868632999999846,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P04",
+    "passed": true,
+    "answer": "Ananya Patil's birthday is 27 September 2008.",
+    "ms": 3.6596379999984663,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P05",
+    "passed": true,
+    "answer": "Birthdays on 18 September:\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)",
+    "ms": 8.564104000001294,
+    "entity_hits": [
+     true,
+     true
+    ],
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P06",
+    "passed": true,
+    "answer": "Birthdays in the next 10 days:\n\u2022 Anand Sharma \u2014 15 September (Brother-in-law; in 4 days)\n\u2022 Pranav Kulkarni \u2014 16 September (Cousin; in 5 days)\n\u2022 Rahul Patil \u2014 18 September (Nephew; in 7 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Deepak Hegde \u2014 20 September (Student; in 9 days)",
+    "ms": 8.930473999999577,
+    "entity_hits": [
+     true
+    ],
+    "facts": [
+     5,
+     5
+    ]
+   },
+   {
+    "id": "P07",
+    "passed": true,
+    "answer": "There is 1 nephew birthday in October.",
+    "ms": 7.1323610000000315,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P08",
+    "passed": true,
+    "answer": "Ananya Patil stays in Mysuru.",
+    "ms": 4.254869000000383,
+    "intent_ok": true,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "P09",
+    "passed": true,
+    "answer": "People staying in Hassan:\n\u2022 Yashaswini Rao (Sister)\n\u2022 Nikhil Bhat (Nephew)\n\u2022 Kiran Hegde (Student)\n\u2022 Bhavana Reddy (Colleague)\n\u2022 Aarav Shetty (Student)\n\u2022 Vidya Gowda (Aunt)\n\u2022 Nikhil S (Uncle)",
+    "ms": 7.102460999998783,
+    "intent_ok": true,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "P10",
+    "passed": false,
+    "answer": "I found 12 nephews. Which one do you mean?\n\u2022 Rahul Patil (Nephew, Bengaluru)\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Varun Kumar (Nephew, Mangaluru)\n\u2022 Rohan Hegde (Nephew, Shivamogga)\n\u2022 Vijay Shetty (Nephew, Tumakuru)\n\u2022 Karthik Hegde (Nephew, Belagavi)\n\u2022 Darshan M (Nephew, Harihar)\n\u2022 Kiran R (Nephew, Belagavi)\n\u2022 Ganesh Prasad (Nephew, Haveri)\n\u2022 Bharath Rao (Nephew, Davanagere)\n\u2022 Vinay Desai (Nephew, Davanagere)",
+    "ms": 7.212672999997949,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C01",
+    "passed": true,
+    "answer": "Nephew birthdays in October:\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)",
+    "ms": 8.800106500000737,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C02",
+    "passed": true,
+    "answer": "Niece birthdays in September:\n\u2022 Nayana Joshi \u2014 06 September (Niece; in 360 days)\n\u2022 Asha M \u2014 20 September (Niece; in 9 days)\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)",
+    "ms": 9.016649000001209,
+    "facts": [
+     3,
+     3
+    ]
+   },
+   {
+    "id": "C03",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 7.461763000000232,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C04",
+    "passed": true,
+    "answer": "Nikhil Hegde's birthday is 03 October 2001.",
+    "ms": 5.790774666666702,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C05",
+    "passed": true,
+    "answer": "There are 2 niece birthdays in October.",
+    "ms": 7.876968499999748,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C06",
+    "passed": true,
+    "answer": "No birthdays found tomorrow.",
+    "ms": 9.516580999999746,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "C07",
+    "passed": true,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 5.366486000001558,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "C08",
+    "passed": true,
+    "answer": "Birthdays in October:\n\u2022 Nayana Kumar \u2014 01 October (Sister-in-law; in 20 days)\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)\n\u2022 Nikhil Rao \u2014 03 October (Uncle; in 22 days)\n\u2022 Aarav Shetty \u2014 04 October (Student; in 23 days)\n\u2022 Manjunath Prasad \u2014 06 October (Brother; in 25 days)\n\u2022 Pooja Patil \u2014 06 October (Aunt; in 25 days)\n\u2022 Usha K \u2014 09 October (Sister; in 28 days)\n\u2022 Rashmi Sharma \u2014 14 October (Colleague; in 33 days)\n\u2022 Sneha Shetty \u2014 16 October (Student; in 35 days)\n\u2022 Shruthi R \u2014 17 October (Niece; in 36 days)\n\u2022 Yashaswini Murthy \u2014 21 October (Niece; in 40 days)\n\u2022 Karthik Patil \u2014 26 October (Brother-in-law; in 45 days)",
+    "ms": 8.953117500000829,
+    "facts": [
+     12,
+     12
+    ]
+   },
+   {
+    "id": "C09",
+    "passed": true,
+    "answer": "Birthdays staying in Mysuru:\n\u2022 Ananya Patil \u2014 27 September (Niece; in 16 days)\n\u2022 Rashmi Shetty \u2014 24 March (Cousin; in 194 days)\n\u2022 Usha Kulkarni \u2014 03 April (Niece; in 204 days)\n\u2022 Yashaswini K \u2014 01 June (Niece; in 263 days)\n\u2022 Priya Hegde \u2014 19 June (Student; in 281 days)\n\u2022 Vaishnavi Murthy \u2014 12 July (Sister-in-law; in 304 days)\n\u2022 Nikhil Reddy \u2014 14 August (Friend; in 337 days)",
+    "ms": 7.754965000000169,
+    "facts": [
+     7,
+     7
+    ]
+   },
+   {
+    "id": "C10",
+    "passed": true,
+    "answer": "Nephew birthdays in October:\n\u2022 Nikhil Hegde \u2014 03 October (Nephew; in 22 days)",
+    "ms": 7.732995999997883,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "A01",
+    "passed": true,
+    "answer": "I found 12 nephews. Which one do you mean?\n\u2022 Rahul Patil (Nephew, Bengaluru)\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Varun Kumar (Nephew, Mangaluru)\n\u2022 Rohan Hegde (Nephew, Shivamogga)\n\u2022 Vijay Shetty (Nephew, Tumakuru)\n\u2022 Karthik Hegde (Nephew, Belagavi)\n\u2022 Darshan M (Nephew, Harihar)\n\u2022 Kiran R (Nephew, Belagavi)\n\u2022 Ganesh Prasad (Nephew, Haveri)\n\u2022 Bharath Rao (Nephew, Davanagere)\n\u2022 Vinay Desai (Nephew, Davanagere)",
+    "ms": 7.331788000001893,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A02",
+    "passed": true,
+    "answer": "I found 5 people. Which one do you mean?\n\u2022 Nikhil Hegde (Nephew, Dharwad)\n\u2022 Nikhil Bhat (Nephew, Hassan)\n\u2022 Nikhil Reddy (Friend, Mysuru)\n\u2022 Nikhil Rao (Uncle, Chitradurga)\n\u2022 Nikhil S (Uncle, Hassan)",
+    "ms": 7.172790000002038,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A03",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 5.999002000002918,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A04",
+    "passed": true,
+    "answer": "February does not have a day 31.",
+    "ms": 6.7568400000013185,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A05",
+    "passed": false,
+    "answer": "No birthdays found today.",
+    "ms": 6.7188979999990295,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A06",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 6.748816000001767,
+    "facts": [
+     1,
+     1
+    ]
+   },
+   {
+    "id": "A07",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 6.408468000000056,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A08",
+    "passed": true,
+    "answer": "I could not understand that. Type 'examples' to see what I can answer.",
+    "ms": 6.389264999999256,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A09",
+    "passed": false,
+    "answer": "There are 100 birthdays.",
+    "ms": 6.123135999999363,
+    "facts": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "A10",
+    "passed": false,
+    "answer": "Rahul Patil's birthday is 18 September 2004.",
+    "ms": 3.8117590000013024,
+    "facts": [
+     1,
+     1
+    ]
+   }
+  ]
+ }
+}

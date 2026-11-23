@@ -1,0 +1,16 @@
+# Reflection: what limitation motivated each version
+
+> **DRAFT. Replace the observations with your own from running each version, and rewrite in your own words before submitting.**
+> The figures below come from `TESTING.md` (40 utterances, fixed date 2026-09-11, rule mode).
+
+**V1 to V2.** V1 answers 10/10 direct questions correctly but only 7/10 paraphrases and 1/10 ambiguous/unsupported ones (25/40 overall). Everything lives in one function: language rules, filtering and wording are tangled, so each new phrasing means another `if`. Different sentences for the same goal ("Where is Ananya living these days?") need separate rules, and there is no way to see *what the system understood*. V2 therefore separates "what the user wants" (intent) from "the values mentioned" (entities).
+
+**V2 to V3.** V2 exposes its interpretation in the debug panel, intent accuracy is 100% on the labelled cases, and overall success rises to 31/40. But every turn is isolated: "What about October?" and "How many?" cannot be interpreted, "When is my nephew's birthday?" lists all 12 nephews instead of asking, and "When is his birthday?" fails. Clarification success is 0/2. V3 adds session state, carry-over of month/relationship, pronoun resolution and a clarification step ("Which one do you mean?"), reaching 35/40 and 2/2 clarification. The dataset exposed a real subtlety: two nephews are called Nikhil, so after "Nikhil" the correct behaviour is to ask again, not to pick one.
+
+**V3 to V4.** The remaining failures are language-understanding failures that rules cannot fix: "in the coming month" is not understood (P10); an off-topic question ("What is the weather today?") is silently treated as "birthdays today"; "How many people live on Mars?" returns "There are 100 birthdays"; "Rahul Patel" is quietly resolved to Rahul Patil; "Delete Rahul Patil's record" is answered as a birthday lookup. V4 uses an LLM *only as a parser* and validates everything it returns against the sheet. Language coverage improves, but factual accuracy is a different property: it is protected by grounding (names must exist, dates must be real, the model never writes the answer), not by the LLM. The rule parser stays as a fallback for API failures.
+
+**V4 to V5.** Typing is not always convenient, so V5 adds speech input and spoken output without touching the backend; voice is a channel, not a source of truth. It adds a new failure layer: speech recognition can mis-hear Indian names and places before NLU ever runs, so the UI shows the transcript ("Heard: ...") to separate ASR errors from NLU, context and data errors. Spoken replies are cleaned of bullet characters, and text is always shown for accessibility and debugging.
+
+**Overall.** Grounded factuality stayed at 100% in every version because replies always come from the sheet. The failures were never wrong facts; they were wrong *interpretations* (answering a different question than asked), which is why NLU, state and clarification, not just data access, make an interface conversational.
+
+**Evidence to add from your own runs:** the `--llm` column of `TESTING.md` (which failures V4 fixed, and any it did not), your voice-recognition table, and one failure you personally debugged layer by layer.

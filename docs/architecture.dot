@@ -1,0 +1,17 @@
+digraph G {
+  rankdir=LR; fontname="Helvetica"; node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, fillcolor="#F4F6FA", color="#3B4A6B"]; edge [fontname="Helvetica", fontsize=9, color="#3B4A6B"];
+  subgraph cluster_browser { label="Browser (presentation layer)"; style=dashed; color="#8090B0";
+    mic [label="Speak button\nSpeechRecognition (en-IN)"]; txt [label="Text box + Send"]; ui [label="Chat window\n+ NLU/state trace panel"]; tts [label="SpeechSynthesis\n(read aloud, optional)"]; }
+  subgraph cluster_flask { label="Flask backend (app.py)  —  POST /api/chat"; style=dashed; color="#8090B0";
+    llm [label="LLM NLU  (llm_nlu.py)\nsentence -> JSON only\nnever sees the sheet", fillcolor="#FFF3D6"];
+    val [label="Validation + grounding\nschema check, names -> Person_ID,\nunknown names rejected", fillcolor="#FFF3D6"];
+    rules [label="Rule NLU  (nlu.py)\nfallback parser"];
+    dlg [label="Dialogue state  (dialogue.py)\nFlask session: carry-over,\npronouns, clarification"];
+    svc [label="Query service  (service.py)\nvalidated {intent, entities}\n-> answer text", fillcolor="#E3F3E6"]; }
+  data [label="data/people.xlsx\n100 synthetic people\nSOURCE OF TRUTH", shape=cylinder, fillcolor="#E3F3E6"];
+  api [label="Hosted LLM API\n(OpenAI-compatible, e.g. Gemini)", shape=component, fillcolor="#FFF3D6"];
+  mic -> txt [label="transcript"]; txt -> llm [label="message"]; llm -> api [dir=both, label="prompt / JSON"];
+  llm -> val; val -> dlg [label="grounded\nintent+entities"]; llm -> rules [style=dashed, label="API error /\ninvalid JSON"]; rules -> dlg [style=dashed];
+  dlg -> svc [label="enriched\nentities"]; svc -> data [dir=both, label="pandas filter"]; svc -> dlg [label="status,\nresult ids", style=dotted];
+  svc -> ui [label="answer text"]; ui -> tts;
+}
