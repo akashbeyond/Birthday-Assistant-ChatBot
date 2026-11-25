@@ -24,7 +24,7 @@ def resolve_pronoun(parsed, state, message) -> bool:
     """'When is his birthday?' right after a single-person answer refers to that same person."""
     e, t = parsed["entities"], message.lower()
     pid = state.get("last_person_id")
-    if not pid or any(k in e for k in SUBJECT_KEYS) or not PRONOUN.search(t):
+    if not pid or e or not PRONOUN.search(t):
         return False
     e["person_id"] = pid
     if re.search(r"\b(where|stay|stays|live|lives|living)\b", t):

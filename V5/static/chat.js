@@ -30,7 +30,7 @@ async function ask(text) {
     const data = await response.json();
     addMessage(data.answer || 'No answer returned.', 'bot');
     speakAnswer(data.answer);
-    trace.textContent = JSON.stringify({nlu_source: data.nlu_source, latency_ms: data.latency_ms, reply_source: data.reply_source, parsed: data.parsed, carried_from_context: data.carried_from_context, state: data.state}, null, 2) + '\n\nstatus: ' + (data.status || '');
+    trace.textContent = JSON.stringify({nlu_source: data.nlu_source, latency_ms: data.latency_ms, reply_source: data.reply_source, escalated: data.escalated, parsed: data.parsed, carried_from_context: data.carried_from_context, state: data.state}, null, 2) + '\n\nstatus: ' + (data.status || '');
   } catch (error) {
     addMessage(`Error: ${error.message}`, 'bot');
   } finally {
